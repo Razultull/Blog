@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {  
+    margin:0px; padding:0px;  
+    background-color:#11090a;  
+    font-family:Arial, Helvetica, sans-serif;  
+}  
+#outside_container {  
+    background:url(images/bg_slice.jpg) repeat-x #000000;  
+}  
+#container {  
+    background:url(images/bg_main.jpg) no-repeat;  
+    min-height:1100px; 
+	position: relative; 
+}  	
+  /*
+  Logo/Menu/Panel positioning
+  */
+#logo { position:absolute; top:50px; left:58px; }  
+  
+#toppanel { position:absolute; top:250px; left:80px; }
+#footer {position: absolute; bottom: 25px; left: 60px}  
+  
+ul#menu {
+	margin:0px;
+	position:absolute;
+	top:145px;
+	left:75px;
+	font-size: 13px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	word-spacing: normal;
+	width: auto;
+}  
+
+ul#right_menu {  
+    margin:0px; padding:0px;  
+    position:absolute; top:145px; left:930px;  
+	font-size: 10px;
+}  
+ul#menu li, ul#right_menu li {
+	margin: 0px; padding: 0px;
+	list-style: none;
+	margin-right: 10px;
+	text-transform: uppercase;
+	display: inline;
+
+}
+ul#menu li a, ul#right_menu li a {
+	text-decoration: none;
+	color: #616161;
+
+}
+ul#menu li a:hover, ul#right_menu li a:hover {
+	text-decoration: none;
+	color: #ffffff;
