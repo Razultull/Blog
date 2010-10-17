@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+html, body {
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+}
+
+body {
+	background: url(images/wrapper2.jpg);
+	font: 85% Georgia, "Times New Roman", Times, serif;
+	}
+br, #clear {
+	clear:both;
+	}
+	
+/* main styles */
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 1160px;
+	height: 1150px;
+	background: url(images/login.png);
+	text-align: left;
+	
+}
+
+/*
+page style*/
+
+#logo { position:absolute; top:50px; left:90px; border:0px; }  
+  
+#footer {position: absolute; bottom: 75px; left: 93px; border: 0px;}  
+
+ul#menu {
+	margin:0px;
+	position:absolute;
+	top:143px;
+	left:95px;
+	font-size: 13px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	font-weight: bold;
+	color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	word-spacing: normal;
+	width: auto;
+}  
+
+ul#right_menu {  
+    margin:0px; padding:0px;  
+    position:absolute; top:145px; left:940px;  
+	font-size: 10px;
+}  
+ul#menu li, ul#right_menu li {
+	margin: 0px; padding: 0px;
+	list-style: none;
+	margin-right: 10px;
+	text-transform: uppercase;
+	display: inline;
+
+}
+ul#menu li a, ul#right_menu li a {
+	text-decoration: none;
+	color: #616161;
+
+}
+ul#menu li a:hover, ul#right_menu li a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* Text Area Styles
+*/
+input#subject {
+	position: absolute;
+	top: 245px;
+	left: 200px;
+	width: 540px;
+	height: 20px;
+	background: #333;
+	border-color: #000;
+	opacity: 0.7;
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#title {
+	position: absolute; top: 217px; left:145px; 
+	}
+#submitbutton{
+	position: absolute; top: 560px; left: 145px;
+	background: url(images/submit.png);
+	border: none;
+	height: 40px;
+	width: 200px;
+}
+
+#textarea {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	background: #333;
+	border: 1px outset #000;
+	color: #FFF;
+	opacity: 0.7;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#TextArea {
+	color: #FFF;
+	top: 500px;
+	left: 100px;
+	background: #333;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	
+}
