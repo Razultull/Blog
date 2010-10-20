@@ -3,7 +3,7 @@
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Login</title>
-  <link rel="stylesheet" href="loginstyle.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="Blogedit.css" type="text/css" media="screen" />
   <style type="text/css">
   <!--
   
@@ -30,18 +30,20 @@
                <li><a href="login.html" title="Login Here">Login</a></li>  
               <li><a href="Contact.html">Contact</a></li>  
           </ul>
-           <img src="images/username.png" id= "Username"/>
-                  <img src="images/password.png" id="Password"/>
-  
-          <div id="form"/>
-    <form>
-          <label> </label>
-              <input type="text" name="Username" class="Username"/>
-          <label></label>
-              <input type="password" name="Password" class="password" />
-              <input type="submit" value="Submit" name="submit" class="submit" />
-  </form> 
-  </div>
-  </div>     
+          <form>
+          <table>
+          Please Select a Blog Post to edit.<br/>
+          <br/>
+          <select name="Edit Blog" id="blogedit">
+				
+				<option value="1" >Blog Post 1</option><option value="2" >Blog Post 2</option><option value="3" >Blog Post 3</option><option value="4" >Blog Post 4</option><option value="5" >Blog Post 5</option><option value="6" >Blog Post 6</option><option value="7" >Blog Post 7</option>
+			</select>
+      </table>
+      </fieldset>
+      <br/>
+      <br/>
+      <input type="submit" name="save" value="&nbsp;&nbsp;OK&nbsp;&nbsp;"/>
+          </form>
+          </div>     
   </body>
   </html>

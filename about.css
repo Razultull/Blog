@@ -76,49 +76,31 @@ ul#menu li a:hover, ul#right_menu li a:hover {
 	text-decoration: none;
 	color: #ffffff;
 }
-/*
-Form Style
-*/
-form {
-	position: absolute;
-	top: 420px;
-	left: 400px;
-	width: 375px;
-	height: 250px;
-	background: url(images/Login_bg.png) no-repeat;
-	padding-top: 70px;
-	padding-right: 45px;
-	padding-bottom: 45px;
-	padding-left: 50px;
-}
 
-input{
-	background: #666
-	position: relative;
-	width: 250px;
-	background: #fff;
-    padding: 6px;
-    margin-bottom: 20px;
-	margin-left:5px;
-	border-top: 1px solid #ad64e0
-    border-left: 5px;
-    border-right: 0px;
-    border-bottom: 1px;
-	text-align: center;
+
+#home #wrapper #aboutparagraph {
+	Height: 305px;
+	Width : 500px;
+	color: #FFF;
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	text-shadow:#000;
+	text-align:left;
+	background-color: #333;
+	border: 2px solid #000;
+	padding: 15px;
+	opacity: 0.7;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
 }
-input.submit {
-	width: 150px;
-    color: #666;
-    text-transform: uppercase;
-    text-shadow: #000 1px 1px;
-    border-top: 1px solid #fff;
-    margin-top: 2px;
-	margin-left: 65px;
-	
+#home #wrapper #Dreamweaver {
+	position: absolute;
+	top: 250px;
+	right: 200px;
 }
-#Username {
-	position: absolute; top: 495px; left: 280px;
-}
-#Password {
-	position: absolute; top: 552px; left:282px;
+#home #wrapper #Photoshop {
+	position: absolute;
+	top: 450px;
+	right: 200px;
 }

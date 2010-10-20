@@ -2,8 +2,8 @@
   <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Login</title>
-  <link rel="stylesheet" href="loginstyle.css" type="text/css" media="screen" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="contactstyle.css" type="text/css" media="screen" />
   <style type="text/css">
   <!--
   
@@ -15,6 +15,9 @@
   <div id="wrapper">
       <a href="Index.html" title="Home"><img src="images/logo.png" id="logo" /></a>  
           <a href="Index.html" title="Home"><img src="images/Footer.png" id="footer"/></a>
+          <img src="images/contactform.png" id="contact"/>
+          
+          
     
           <ul id="menu">  
               <li><a href="index.html" title="Home">Home</a></li>  
@@ -30,18 +33,27 @@
                <li><a href="login.html" title="Login Here">Login</a></li>  
               <li><a href="Contact.html">Contact</a></li>  
           </ul>
-           <img src="images/username.png" id= "Username"/>
-                  <img src="images/password.png" id="Password"/>
-  
+          
           <div id="form"/>
     <form>
-          <label> </label>
-              <input type="text" name="Username" class="Username"/>
-          <label></label>
-              <input type="password" name="Password" class="password" />
-              <input type="submit" value="Submit" name="submit" class="submit" />
+          <label>Enter your Name: &nbsp; </label>
+              <input type="text" name="Name" class="Name"/>
+              <br/>
+              <br/>
+          <label>Enter your e-mail address:&nbsp;</label>
+              <input type="text" name="email" class="email" />
+              <br/>
+              <br/>
+              <label>Your Message:&nbsp;</label>
+              <br/>
+              <br/>
+              <textarea name="Message" id="TextArea" rows="5" cols="40" style="display: block; height: 250px; width: 400px; " tabindex="1" dir="ltr" sourceindex="12"></textarea>
+              <br/>
+              <br/>
+              <input type="submit" value="&nbsp;Submit&nbsp;" name="submit" class="submit" />
   </form> 
+           
   </div>
-  </div>     
+   </div>     
   </body>
   </html>

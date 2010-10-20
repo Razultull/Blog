@@ -76,49 +76,18 @@ ul#menu li a:hover, ul#right_menu li a:hover {
 	text-decoration: none;
 	color: #ffffff;
 }
-/*
-Form Style
-*/
-form {
-	position: absolute;
-	top: 420px;
-	left: 400px;
-	width: 375px;
-	height: 250px;
-	background: url(images/Login_bg.png) no-repeat;
-	padding-top: 70px;
-	padding-right: 45px;
-	padding-bottom: 45px;
-	padding-left: 50px;
-}
 
-input{
-	background: #666
-	position: relative;
-	width: 250px;
-	background: #fff;
-    padding: 6px;
-    margin-bottom: 20px;
-	margin-left:5px;
-	border-top: 1px solid #ad64e0
-    border-left: 5px;
-    border-right: 0px;
-    border-bottom: 1px;
-	text-align: center;
-}
-input.submit {
-	width: 150px;
-    color: #666;
-    text-transform: uppercase;
-    text-shadow: #000 1px 1px;
-    border-top: 1px solid #fff;
-    margin-top: 2px;
-	margin-left: 65px;
-	
-}
-#Username {
-	position: absolute; top: 495px; left: 280px;
-}
-#Password {
-	position: absolute; top: 552px; left:282px;
+#form {
+	position: absolute;
+	top: 250px;
+	left: 575px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	background-color: #333;
+	opacity: 0.7;
+	height: 660px;
+	width: 500px;
+	text-align: left;
+	padding: 20px;
+	border: 2px solid #000;
 }
